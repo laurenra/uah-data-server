@@ -15,8 +15,11 @@ go run .
 View the endpoints in a browser at `http://localhost:8080`
 
 http://localhost:8080/data returns the combined monthly + trend payload as JSON.
+
 http://localhost:8080/healthz returns ok for basic uptime checks.
-http://localhost:8080/download accepts POST JSON like {"url":"https://example.com/file.csv"} and saves the remote file to ./downloads.
+
+http://localhost:8080/download accepts POST JSON like 
+{"url":"https://example.com/file.csv"} and saves the remote file to ./downloads.
 
 ## Deploy
 
